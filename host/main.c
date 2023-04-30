@@ -281,8 +281,8 @@ void print_options(char *programName)
     printf("Usage: %s [-e [FILE] [ALGORITHM] | -d [FILE] [FILE]]\n", programName);
     printf("Encrypt or decrypt given file in TEE(Trusted Execution Environment)\n\n");
     printf("Options:\n");
-    printf("\t-e\tencrypt the input file using give algorithm (caesar, rsa(214 bytes))\n");
-    printf("\t-d\tdecrypt the input file (only caesar\n");
+    printf("\t-e\tencrypt the input file using give algorithm\n\t\tcaesar\n\t\trsa (214 bytes))\n");
+    printf("\t-d\tdecrypt the input file\n\t\t(only caesar)\n");
 }
 
 int main(int argc, char *argv[])
