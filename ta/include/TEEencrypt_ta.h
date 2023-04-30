@@ -40,9 +40,11 @@
 	}
 
 /* The function IDs implemented in this TA */
-#define TA_TEEencrypt_CMD_ENC_VALUE 0
-#define TA_TEEencrypt_CMD_DEC_VALUE 1
-#define TA_TEEencrypt_CMD_RANDOMKEY_GET 2
-#define TA_TEEencrypt_CMD_RANDOMKEY_ENC 3
+#define TA_TEEencrypt_CMD_CAESAR_ENC_VALUE 0
+#define TA_TEEencrypt_CMD_CAESAR_DEC_VALUE 1
+#define TA_TEEencrypt_CMD_CAESAR_GEN_KEY 2
+#define TA_TEEencrypt_CMD_CAESAR_ENC_KEY 3
+#define TA_TEEencrypt_CMD_RSA_GEN_KEY 4
+#define TA_TEEencrypt_CMD_RSA_ENC_VALUE 5
 
 #endif /*TA_TEEencrypt_H*/
